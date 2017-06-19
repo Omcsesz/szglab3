@@ -6,7 +6,7 @@ A program a Conway-féle életjátékot játssza. A játék nem igényel játék
 *	Ha pontosan kettő, vagy három szomszédja van, túléli a kört.
 *	Új sejt születik minden olyan cellában, melynek környezetében pontosan három sejt található.
 
-#Software laboratory 3
+# Software laboratory 3
 The program simulates Conway's Game of life (https://en.wikipedia.org/wiki/Conway's_Game_of_Life). The  "game" needs no player (zero-player game), the outcome is determined by the initial configuration. The game was invented by John Conway in 1970. The rules are as follows: the game is played on an n-by-n grid, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
   *  Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
